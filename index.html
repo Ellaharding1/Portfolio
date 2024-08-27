@@ -4,74 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Landing Section -->
-    <div id="landing">
+    <!-- Header Section -->
+    <header id="header">
         <div class="overlay">
-            <div class="content">
-                <img src="pictures/photo.jpg" alt="Your Name" class="profile-pic">
-                <h1>Ella Harding</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <img src="pictures/photo.jpg" alt="Ella Harding" class="profile-pic">
+            <h1>Ella Harding</h1>
         </div>
-    </div>
-
-    <!-- Skills Section -->
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> Java, Python, JavaScript, C#, Unity</li>
-            <li><strong>Web Development:</strong> HTML, CSS, PHP</li>
-            <li><strong>Version Control:</strong> Git</li>
-            <li><strong>Professional Strengths:</strong> Leadership, Organization, Strong Work Ethic</li>
-        </ul>
-    </section>
+    </header>
 
     <!-- Projects Section -->
     <section id="projects" class="container">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: E-commerce Website</h3>
-            <p>
-                Developed a full-stack e-commerce website using HTML, CSS, JavaScript, and PHP.
-                Integrated secure payment gateways and built a user-friendly interface.
-            </p>
-        </div>
-        <div class="project">
-            <h3>Project 2: Portfolio Website</h3>
-            <p>
-                Created a personal portfolio website to showcase my projects and skills, utilizing HTML and CSS for responsive design.
-            </p>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="unitygame.webp" alt="Unity Game: Rescue Royale" class="project-img">
+                <h3>Unity Game: Rescue Royale</h3>
+                <p>This game was developed in collaboration with a team of four others, where I took a leadership role to ensure effective collaboration and smooth project execution. Unity was used for immersive 3D environments and dynamic gameplay, with Blender for 3D modeling, and Visual Studio and C# for coding game logic. I coordinated the team's efforts in using Photoshop and Audacity for texture creation and sound design, resulting in a polished and engaging player experience.</p>
+                <p><a href="https://github.com/amelpiat/Project.git" target="_blank">View the project on GitHub</a></p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="website.jpg" alt="Website: FloraFuze" class="project-img">
+                <h3>Website: FloraFuze</h3>
+                <p>FloraFuze.com is a website I developed to showcase and sell handcrafted glass flower art. Built using HTML, CSS, PHP and JavaScript, the site offers a user-friendly interface and a responsive design, ensuring a seamless browsing experience across all devices. I managed the entire project, from design to deployment, focusing on creating an engaging online presence for the unique glass art pieces.</p>
+                <p><a href="https://florafuze.com/" target="_blank">Visit the FloraFuze website</a></p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="Algorithms.jpg" alt="Java Program: Algorithms" class="project-img">
+                <h3>Java Program: Algorithms</h3>
+                <p>In this project, I developed a Java program to implement and compare various sorting algorithms, including Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, and Bucket Sort. The program measures and outputs the execution time for each algorithm, allowing for a detailed performance analysis across different sorting methods. This project highlights my understanding of algorithmic efficiency and my ability to apply Java programming to solve computational problems effectively.</p>
+                <p><a href="https://github.com/Ellaharding1/Algorithms.git" target="_blank">View the project on GitHub</a></p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project">
+                <img src="portfolio.jpg" alt="Website: Portfolio" class="project-img">
+                <h3>Website: Portfolio</h3>
+                <p>I designed and developed a comprehensive portfolio website to showcase my diverse range of skills and projects. This dynamic site features a clean, modern design and is fully responsive, ensuring an optimal viewing experience across all devices. The portfolio integrates interactive elements and visual assets, including custom graphics and project descriptions, to effectively communicate my expertise in web development, game design, and software engineering.</p>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>
-            If you'd like to get in touch, please feel free to 
-            <a href="mailto:your-email@example.com">email me</a>.
-        </p>
+        <p>If you'd like to get in touch, please feel free to email me at <a href="mailto:Ellaharding@rogers.com">Ellaharding@rogers.com</a>.</p>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2024 Ella Harding. All rights reserved.</p>
         </div>
     </footer>
 </body>
