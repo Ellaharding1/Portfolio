@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Link to External CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <!-- Landing Section -->
+    <div id="landing">
+        <div class="overlay">
+            <div class="content">
+                <img src="pictures/photo.jpg" alt="Your Name" class="profile-pic">
+                <h1>Ella Harding</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </header>
+    </div>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Hello! I am a software developer with a passion for building impactful digital solutions. I have experience in programming, web development, and software analytics. My goal is to create innovative applications that improve user experiences and solve real-world problems.</p>
-    </section>
-
+    <!-- Skills Section -->
     <section id="skills" class="container">
         <h2>Skills</h2>
         <ul>
@@ -39,26 +41,37 @@
         </ul>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="container">
         <h2>Projects</h2>
         <div class="project">
             <h3>Project 1: E-commerce Website</h3>
-            <p>Developed a full-stack e-commerce website using HTML, CSS, JavaScript, and PHP. Integrated secure payment gateways and built a user-friendly interface.</p>
+            <p>
+                Developed a full-stack e-commerce website using HTML, CSS, JavaScript, and PHP.
+                Integrated secure payment gateways and built a user-friendly interface.
+            </p>
         </div>
         <div class="project">
             <h3>Project 2: Portfolio Website</h3>
-            <p>Created a personal portfolio website to showcase my projects and skills, utilizing HTML and CSS for responsive design.</p>
+            <p>
+                Created a personal portfolio website to showcase my projects and skills, utilizing HTML and CSS for responsive design.
+            </p>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p>If you'd like to get in touch, please feel free to <a href="mailto:Ellaharding@rogers.com">email me</a>.</p>
+        <p>
+            If you'd like to get in touch, please feel free to 
+            <a href="mailto:your-email@example.com">email me</a>.
+        </p>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
         </div>
     </footer>
 </body>
