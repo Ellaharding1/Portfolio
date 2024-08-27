@@ -106,22 +106,47 @@ h2 {
 }
 
 /* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #9e3e4a;
+    margin-bottom: 20px;
+}
+
 #contact p {
     font-size: 1.2rem;
-    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-#contact a {
-    color: #9e3e4a;
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007acc;
     text-decoration: none;
     font-weight: 500;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease;
 }
 
-#contact a:hover {
-    border-bottom: 2px solid #9e3e4a;
+.contact-info a:hover {
+    text-decoration: underline;
 }
+
 
 /* Footer Styles */
 footer {
